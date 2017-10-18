@@ -1,0 +1,22 @@
+{
+  "name": "@cathive/concourse-sonarqube-qualitygate-tast",
+  "description": "A simple Node.js task that can be used to break CI builds if SonarQube quality gates are not met.",
+  "private": true,
+  "author": "The Cat Hive Developers <info@cathive.com>",
+  "maintainers": [
+    "Benjamin P. Jung <headcr4sh@gmail.com>"
+  ],
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/jest": "^21.1.4",
+    "@types/node": "^8.0.44",
+    "chai": "^4.1.2",
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": {
+    "sonarqube-qualitygate-check": "./sonarqube-qualitygate-check-cli.js"
+  }
+}

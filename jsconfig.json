@@ -1,0 +1,12 @@
+{
+  "files": [
+    "docker-entrypoint.js"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "lib": [
+      "es2017"
+    ],
+    "rootDir": "."
+  }
+}

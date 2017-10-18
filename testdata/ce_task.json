@@ -1,0 +1,20 @@
+{
+  "task": {
+    "organization": "default-organization",
+    "id": "AV8ruQJpkMPNKOCb2aKX",
+    "type": "REPORT",
+    "componentId": "AVzu61UWmccNsNKKI51V",
+    "componentKey": "com.example:project1",
+    "componentName": "component1",
+    "componentQualifier": "TRK",
+    "analysisId": "AV8ruQoLUMC9XTq7EiQY",
+    "status": "SUCCESS",
+    "submittedAt": "2017-10-17T19:04:25+0000",
+    "submitterLogin": "Auth-SonarQube",
+    "startedAt": "2017-10-17T19:04:27+0000",
+    "executedAt": "2017-10-17T19:04:29+0000",
+    "executionTimeMs": 1862,
+    "logs": false,
+    "hasScannerContext": true
+  }
+}

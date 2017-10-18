@@ -1,0 +1,61 @@
+{
+  "projectStatus": {
+    "status": "WARN",
+    "conditions": [
+      {
+        "status": "OK",
+        "metricKey": "new_security_rating",
+        "comparator": "GT",
+        "periodIndex": 1,
+        "errorThreshold": "1",
+        "actualValue": "1"
+      },
+      {
+        "status": "OK",
+        "metricKey": "new_reliability_rating",
+        "comparator": "GT",
+        "periodIndex": 1,
+        "errorThreshold": "1",
+        "actualValue": "1"
+      },
+      {
+        "status": "OK",
+        "metricKey": "new_maintainability_rating",
+        "comparator": "GT",
+        "periodIndex": 1,
+        "errorThreshold": "1",
+        "actualValue": "1"
+      },
+      {
+        "status": "WARN",
+        "metricKey": "coverage",
+        "comparator": "LT",
+        "warningThreshold": "80",
+        "errorThreshold": "60",
+        "actualValue": "79.5"
+      },
+      {
+        "status": "OK",
+        "metricKey": "blocker_violations",
+        "comparator": "GT",
+        "errorThreshold": "0",
+        "actualValue": "0"
+      },
+      {
+        "status": "OK",
+        "metricKey": "critical_violations",
+        "comparator": "GT",
+        "errorThreshold": "0",
+        "actualValue": "0"
+      }
+    ],
+    "periods": [
+      {
+        "index": 1,
+        "mode": "previous_version",
+        "date": "2017-10-17T16:26:10+0000",
+        "parameter": "1.42.4711"
+      }
+    ]
+  }
+}
