@@ -18,6 +18,6 @@ of your SonarQube quality gates have not been met.
     inputs:
     - name: sonar-result
     run:
-      path: /sonarqube-gualitygate-check
+      path: /sonarqube-qualitygate-check
       dir: sonar-result
 ```
